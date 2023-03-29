@@ -12,7 +12,13 @@ function ProjectDisplay() {
         <div className='project'>
             <h1>{project.name}</h1>
             <img src={project.image} alt="..loading" />
-            <p> {project.text}</p>
+
+            <ul >
+                {project.text.map((ele, idx) => {
+                    return <li key={idx}> {ele}</li>
+                })
+                }
+            </ul>
             {/* <p>
             <b>Skills: </b> {project.skills}
         </p> */}

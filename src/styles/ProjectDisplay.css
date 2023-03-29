@@ -20,10 +20,11 @@
 
 }
 
-.project p {
+.project p,
+ul {
     font-size: 20px;
     color: #3e497a;
-    margin: auto;
+    margin: 30px 150px 50px 150px;
 }
 
 .project svg {

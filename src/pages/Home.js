@@ -5,14 +5,24 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
 function Home() {
+  const emailAddress = "manavpra@usc.edu";
+  const githubProfileUrl = "https://github.com/Manavjain25";
   return <div className="home">
     <div className="about">
       <h2> Hi, My Name is Manav Jain</h2>
       <div className="prompt">
         <p>A software developer with a passion for learning and creating.</p>
-        <LinkedInIcon />
-        <EmailIcon />
-        <GithubIcon />
+        <a href="https://www.linkedin.com/in/manav-jain25/" target="_blank" rel="noopener noreferrer">
+          <LinkedInIcon />
+        </a>
+        <a href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer">
+          <EmailIcon />
+        </a>
+        <a href={githubProfileUrl}>
+          <GithubIcon />
+        </a>
+
+
       </div>
     </div>
     <div className="skills">
@@ -38,7 +48,7 @@ function Home() {
         </li>
       </ol>
     </div>
-  </div>;
+  </div >;
 }
 
 export default Home;
