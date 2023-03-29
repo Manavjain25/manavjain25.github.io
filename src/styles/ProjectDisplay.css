@@ -17,11 +17,13 @@
     width: 400px;
     height: 400px;
     border-radius: 10px;
+
 }
 
 .project p {
-    font-size: 40px;
+    font-size: 20px;
     color: #3e497a;
+    margin: auto;
 }
 
 .project svg {

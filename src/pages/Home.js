@@ -21,7 +21,7 @@ function Home() {
         <li className="item">
           <h2> Frontend</h2>
           <span>
-            ReactJS, Redux, HTML, CSS, React Native, NPM,
+            ReactJS, HTML, CSS, React Native, NPM,
             BootStrap, MaterialUI, Yarn, StyledComponents
           </span>
         </li>
@@ -34,7 +34,7 @@ function Home() {
         </li>
         <li className="item">
           <h2>Languages</h2>
-          <span>Python, JavaScript,  C++, Java</span>
+          <span>Python, JavaScript, C++, Java</span>
         </li>
       </ol>
     </div>
