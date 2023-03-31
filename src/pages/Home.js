@@ -21,8 +21,6 @@ function Home() {
         <a href={githubProfileUrl}>
           <GithubIcon />
         </a>
-
-
       </div>
     </div>
     <div className="skills">
@@ -31,15 +29,15 @@ function Home() {
         <li className="item">
           <h2> Frontend</h2>
           <span>
-            ReactJS, HTML, CSS, React Native, NPM,
-            BootStrap, MaterialUI, Yarn, StyledComponents
+            ReactJS, HTML, CSS,
+            BootStrap, MaterialUI, NPM, Yarn, StyledComponents
           </span>
         </li>
         <li className="item">
           <h2>Back-End</h2>
           <span>
-            NodeJS, ExpressJS, GraphQL,
-            MySQL, MongoDB, AWS S3
+            NodeJS, Flask, ExpressJS, REST, GraphQL,
+            MySQL, MongoDB, AWS, JSON
           </span>
         </li>
         <li className="item">
