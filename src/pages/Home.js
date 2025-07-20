@@ -234,7 +234,7 @@ vulnerability detection and improving code quality </li>
           <div className="resume-section">
             <button className="resume-button" onClick={() => window.open('/resume.pdf', '_blank')}>
               <span>📄</span>
-              Download Resume
+              Resume
             </button>
           </div>
         </div>
